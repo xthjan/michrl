@@ -1,0 +1,49 @@
+﻿@font-face {
+    font-family: avalonBold;
+    src: url('../fonts/avalon-bold-webfont-webfont.eot');
+    src: url('../fonts/avalon-bold-webfont-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/avalon-bold-webfont-webfont.woff') format('woff'), url('../fonts/avalon-bold-webfont-webfont.ttf') format('truetype'), url('../fonts/avalon-bold-webfont-webfont.svg#glyphicons-halflingsregular') format('svg');
+}
+
+@font-face {
+    font-family: avalonBook;
+    src: url('../fonts/avalon-book-webfont-webfont.eot');
+    src: url('../fonts/avalon-book-webfont-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/avalon-book-webfont-webfont.woff') format('woff'), url('../fonts/avalon-book-webfont-webfont.ttf') format('truetype'), url('../fonts/avalon-book-webfont-webfont.svg#glyphicons-halflingsregular') format('svg');
+}
+
+body {
+    background:#2196F3;
+}
+
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.underConstruction {
+    font-family: avalonBold, opensans,Arial;
+    font-size: 100px;
+    text-transform: lowercase;
+    letter-spacing: -.08em;
+}
+
+.feb2016 {
+    font-family: avalonBook, opensans,Arial;
+    font-size: 30px;
+    text-transform: lowercase;
+    letter-spacing:  -.05em;
+}
+
+.local {
+    line-height: 3em;
+    background-color: #2196F3;
+    color: white;
+}
